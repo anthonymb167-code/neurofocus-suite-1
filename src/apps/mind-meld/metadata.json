@@ -1,0 +1,6 @@
+{
+  "name": "Mind Meld - Structured Existential Navigation",
+  "description": "Systematic diagnostic framework collapsing universal noise into a focused personal roadmap using psychological data, empirical science, controlled randomness, and intuition.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "NeuroRestore - Cognitive Firewall Dismantler",
+  "description": "Clinical Cognitive Behavioral Therapy and neuroplasticity laboratory designed to dismantle negative suggestion loops, psychogenic cognitive suppression, and restore prefrontal cortex peak flow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
