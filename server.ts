@@ -14,7 +14,6 @@ const PORT = Number(process.env.PORT) || 3000;
 
 app.use(express.json());
 
-// Safe Gemini API route for Mind Meld assistant
 app.post('/api/meld-chat', async (req, res) => {
   try {
     const { message, context } = req.body || {};
@@ -43,7 +42,6 @@ app.post('/api/meld-chat', async (req, res) => {
   }
 });
 
-// Serve static Vite build
 const distPath = path.join(__dirname, 'dist');
 app.use(express.static(distPath));
 
