@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NeuroRestoreApp from './apps/neurorestore/src/App';
 import RsgApp from './apps/rsg/src/App';
 import MindMeldApp from './apps/mind-meld/src/App';
+import EcosystemFooter from './components/EcosystemFooter';
 
 const TAB_GUIDES = {
   reset: {
@@ -103,6 +104,8 @@ export default function App() {
         {activeTab === 'audit' && <RsgApp />}
         {activeTab === 'clarify' && <MindMeldApp />}
       </main>
+
+      <EcosystemFooter currentApp="NeuroFocus Suite" />
     </div>
   );
 }
